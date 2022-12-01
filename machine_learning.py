@@ -4,7 +4,7 @@ from sklearn.datasets import load_diabetes
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
 from sklearn.ensemble import VotingRegressor
 
-# Load Data
+# Load Data:
 X, y = load_diabetes(return_X_y=True)
 
 # Model Specification
